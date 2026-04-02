@@ -101,9 +101,9 @@ All hotkeys are configurable in Preferences.
 |---------------------------|----------|--------------|
 | ![Free macOS clipboard history in ScrubBar](ScrubBar/Screenshots/clipboard-history.jpg) | ![ScrubBar menu bar](ScrubBar/Screenshots/menu-1.jpg) | ![Scrubbed clipboard preview](ScrubBar/Screenshots/menu-2.jpg) |
 
-| File right-click | History search |
-|-----------------|----------------|
-| ![Finder Services — Scrub with ScrubBar](ScrubBar/Screenshots/file-right-click.jpg) | ![Clipboard history search](ScrubBar/Screenshots/screenshot-clipboard-history.jpg) |
+| File right-click |
+|-----------------|
+| ![Finder Services — Scrub with ScrubBar](ScrubBar/Screenshots/file-right-click.jpg)
 
 ## How It Works
 
