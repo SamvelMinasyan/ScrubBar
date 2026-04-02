@@ -41,8 +41,8 @@
 Clone this repository and enter the Swift package directory (where `Package.swift` and `setup.sh` live):
 
 ```bash
-git clone https://github.com/<your-username>/<repository>.git
-cd <repository>/ScrubBar
+git clone https://github.com/SamvelMinasyan/ScrubBar.git
+cd ScrubBar/ScrubBar
 ```
 
 The Swift package and `setup.sh` live in the **`ScrubBar`** folder at the repository root. Example: if you cloned into `Ipaste`, run `cd Ipaste/ScrubBar`.
