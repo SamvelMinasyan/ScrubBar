@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>ScrubBar</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.samvelminasyan.ScrubBar</string>
+    <key>CFBundleName</key>
+    <string>ScrubBar</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>CFBundleIconFile</key>
+    <string>ScrubBar</string>
+    <key>LSUIElement</key>
+    <true/> <!-- Hides Dock Icon -->
+    <key>NSServices</key>
+    <array>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict>
+                <key>default</key>
+                <string>Scrub with ScrubBar</string>
+            </dict>
+            <key>NSMessage</key>
+            <string>handleScrubFile</string>
+            <key>NSSendFileTypes</key>
+            <array>
+                <string>public.item</string>
+            </array>
+            <key>NSRequiredContext</key>
+            <dict>
+                <key>NSTextContent</key>
+                <array>
+                    <string>FilePath</string>
+                </array>
+            </dict>
+        </dict>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict>
+                <key>default</key>
+                <string>Restore with ScrubBar</string>
+            </dict>
+            <key>NSMessage</key>
+            <string>handleRestoreFile</string>
+            <key>NSSendFileTypes</key>
+            <array>
+                <string>public.item</string>
+            </array>
+            <key>NSRequiredContext</key>
+            <dict>
+                <key>NSTextContent</key>
+                <array>
+                    <string>FilePath</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

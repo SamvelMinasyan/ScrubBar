@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Shield -->
+  <path d="M256 40L70 110V240C70 350 160 450 256 472C352 450 442 350 442 240V110L256 40Z" fill="#1A73E8"/>
+  
+  <!-- Subtle Gradient/Depth Overlay -->
+  <path d="M256 40L70 110V240C70 350 160 450 256 472V40Z" fill="white" fill-opacity="0.1"/>
+  
+  <!-- The 'ScrubBar' (White Horizontal Bar) -->
+  <rect x="40" y="220" width="432" height="72" rx="12" fill="white" fill-opacity="0.95"/>
+  
+  <!-- Stylized 'S' - Darkened for Visibility -->
+  <path d="M256 160C220 160 190 175 190 205C190 235 220 245 256 255C292 265 322 275 322 305C322 335 292 350 256 350C220 350 190 335 190 315M190 315L210 325M256 160C292 160 322 175 322 195L302 185" stroke="#052044" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Highlight for Tech Look -->
+  <path d="M100 130L256 70L412 130" stroke="white" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round"/>
+</svg>

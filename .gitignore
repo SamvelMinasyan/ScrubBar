@@ -1,0 +1,22 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+xcuserdata/
+
+# macOS
+.DS_Store
+
+# Build artifacts
+*.app
+*.dmg
+ScrubBar-macOS.zip
+entitlements.plist
+dmg_root/
+*.icns
+*.iconset/
